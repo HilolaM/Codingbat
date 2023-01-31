@@ -2,7 +2,7 @@ package Arrays;
 
 public class middleWay {
 /*
-public int[] middleWay(int[] a, int[] b) {
+public int[]   middleWay(int[] a, int[] b) {
   return new int[] {a[1], b[1]};
 }
 
