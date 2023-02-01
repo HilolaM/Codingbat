@@ -7,15 +7,10 @@ public class maxEnd3 {
     last element in the array, and set all the other elements to be that value. Return the changed array.
      */
 
+
     public int[] maxEnd3(int[] nums) {
-        int[] maxArr=new int[3];
-        maxArr[0]=nums[0];
-        if(maxArr[0]<=nums[2])
-            maxArr[0]=nums[2];
-        maxArr[1]=maxArr[0];
-        maxArr[2]=maxArr[0];
-
-        return maxArr;
-
+        int max= Math.max(nums[0], nums[2]);
+        int [] temp={max, max, max};
+        return temp;
     }
 }
